@@ -1,0 +1,6 @@
+curl  -H "Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7" -X PUT 'http://localhost:9200/_all/_settings' -d ' 
+{
+    "index" : {
+        "max_result_window" : "10000000"
+    }
+}'

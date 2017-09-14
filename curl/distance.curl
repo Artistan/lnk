@@ -1,0 +1,31 @@
+curl  -H "Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7" 'http://localhost:9200/us-8-habitats/data/_search?pretty' -d ' 
+{ 
+    "from" : 0, "size" : 100, 
+     
+            "query": { 
+                "function_score":{ 
+                    "query":  { 
+                        "match_all": {} 
+                    }, 
+                     
+                    "boost_mode": "replace", 
+                    "script_score" : { 
+                        "script" : { 
+                            "params" : { 
+                                "originX" : 16413, 
+                                "originY" : 16252 
+                            }, 
+                            "inline": "double abs(def x) { if(x < 0){return -x;} return x; } double paramsPossitionOneY = params.originY & 1; double docPossitionOneY = doc[\"mapY\"].value & 1; double originX = params.originX; double docX = doc[\"mapX\"].value;  if(paramsPossitionOneY>0){     originX = params.originX + 0.5 } if(docPossitionOneY>1){     docX = doc[\"mapX\"].value + 0.5; }  double xyDistance = abs(params.originY - doc[\"mapY\"].value); double xxDistance = abs( originX - docX ); double xyHalfDistance = xyDistance * 0.5;  if( xyHalfDistance >= xxDistance) {     return xyDistance; } else {     return (xyHalfDistance + xxDistance); }" 
+                        } 
+                    } 
+                } 
+            }, 
+             
+    "sort" : [ 
+        { 
+            "_score" : { 
+                "order": "asc" 
+            } 
+        } 
+    ] 
+}'
