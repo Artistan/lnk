@@ -1,0 +1,26 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  color: #4a4a4a;
+}
+
+.search {
+  margin: 10px 100px;
+}
+
+a, a:visited {
+  text-decoration:none;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 16px 0 0 0;
+}
