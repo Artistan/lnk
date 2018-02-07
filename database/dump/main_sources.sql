@@ -1,0 +1,9 @@
+INSERT INTO sources (type, location, created_at, updated_at) VALUES ('json', 'http://public-data.lordsandknights.com/LKWorldServer-US-8/alliances.json.gz', '2016-08-26 19:46:57', '2016-08-26 19:46:57');
+INSERT INTO sources (type, location, created_at, updated_at) VALUES ('json', 'http://public-data.lordsandknights.com/LKWorldServer-US-8/players.json.gz', '2016-08-26 19:47:13', '2016-08-26 19:47:13');
+INSERT INTO sources (type, location, created_at, updated_at) VALUES ('json', 'http://public-data.lordsandknights.com/LKWorldServer-US-8/habitats.json.gz', '2016-08-26 19:47:26', '2016-08-26 19:47:26');
+INSERT INTO sources (type, location, created_at, updated_at) VALUES ('json', 'http://public-data.lordsandknights.com/LKWorldServer-US-9/alliances.json.gz', '2016-08-26 19:47:37', '2016-08-26 19:47:37');
+INSERT INTO sources (type, location, created_at, updated_at) VALUES ('json', 'http://public-data.lordsandknights.com/LKWorldServer-US-9/players.json.gz', '2016-08-26 19:47:49', '2016-08-26 19:47:49');
+INSERT INTO sources (type, location, created_at, updated_at) VALUES ('json', 'http://public-data.lordsandknights.com/LKWorldServer-US-9/habitats.json.gz', '2016-08-26 19:48:03', '2016-08-26 19:48:03');
+INSERT INTO sources (type, location, created_at, updated_at) VALUES ('json', 'http://public-data.lordsandknights.com/LKWorldServer-US-12/habitats.json.gz', '2017-09-08 17:02:56', '2017-09-08 17:02:56');
+INSERT INTO sources (type, location, created_at, updated_at) VALUES ('json', 'http://public-data.lordsandknights.com/LKWorldServer-US-12/players.json.gz', '2017-09-08 17:03:10', '2017-09-08 17:03:10');
+INSERT INTO sources (type, location, created_at, updated_at) VALUES ('json', 'http://public-data.lordsandknights.com/LKWorldServer-US-12/alliances.json.gz', '2017-09-08 17:03:27', '2017-09-08 17:03:27');

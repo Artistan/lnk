@@ -1,0 +1,1 @@
+INSERT INTO templates (name, template, replicas, shards, analysis_id, "order", created_at, updated_at) VALUES ('alliances', 'alliances', 1, 4, 1, 0, '2017-09-13 11:19:43', '2017-09-13 11:25:03');

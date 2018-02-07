@@ -1,0 +1,1 @@
+INSERT INTO analyses (name, filter, analyzer, created_at, updated_at) VALUES ('default (none)', '', '', '2017-09-08 17:31:17', '2017-09-08 17:31:17');

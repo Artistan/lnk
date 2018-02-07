@@ -1,0 +1,1 @@
+INSERT INTO mapping_template (mapping_id, template_id, type) VALUES (2, 1, 'data');

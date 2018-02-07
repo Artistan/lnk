@@ -1,0 +1,14 @@
+INSERT INTO migrations (migration, batch) VALUES ('2016_06_23_193952_create_archives_table', 1);
+INSERT INTO migrations (migration, batch) VALUES ('2016_06_23_195546_create_failed_jobs_table', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2016_06_24_112244_create_sources_table', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2016_06_24_112300_create_queries_table', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2016_06_27_013756_create_aliases_table', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2016_06_30_013829_create_successful_jobs_table', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2016_06_30_181535_create_groups_table', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2016_10_31_124935_laravel_5_3_changes', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2016_11_10_164111_create_templates_table', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2016_11_10_194811_create_mappings_table', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2016_11_10_204148_create_analyses_table', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2017_03_22_200714_add_max_result_to_groups_table', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2017_05_04_184217_move_type_to_archive', 2);
+INSERT INTO migrations (migration, batch) VALUES ('2017_05_06_030403_create_callbacks_table', 2);

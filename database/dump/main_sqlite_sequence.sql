@@ -1,0 +1,9 @@
+INSERT INTO sqlite_sequence (name, seq) VALUES ('migrations', 14);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('sources', 11);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('analyses', 1);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('groups', 9);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('archives', 10);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('queries', 1);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('aliases', 1);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('templates', 1);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('mapping_template', 3);
